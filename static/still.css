@@ -1,0 +1,46 @@
+body{
+    /* background: silver; */
+    width: 60%;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+
+.rapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+div{
+    border: 1px dotted;
+    /* background: lightslategray; */
+    margin: 10px;
+    border-radius: 5%;
+    text-align: center;
+}
+
+.karfa{
+    margin-top: 10px;
+    width: 60px;
+}
+
+/*
+    Töfla frá w3shcools
+*/
+table {
+    font-size: 1.2em;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  h1, h3, h4{
+    text-align: center;
+  }
