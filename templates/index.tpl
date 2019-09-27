@@ -9,10 +9,10 @@
     <section class="rapper">
         {% for i in v %}
             <div>
-                <h2> {{ i [1] }} </h2>
+                <h2> {{ i[1] }} </h2>
                 <img src="/static/{{ i[2] }}">
 
-                <h2>Verð: <a href="/add/{{ i[0] }}">{{ i[3] }}</a><h2>
+                <h2>Verð: <a href="/add/{{i[0]}}">{{ i[3] }}</a><h2>
             </div>
         {% endfor %}
     </section>
