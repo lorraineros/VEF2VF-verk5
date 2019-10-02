@@ -12,7 +12,6 @@ body{
 
 div{
     border: 1px dotted;
-    /* background: lightslategray; */
     margin: 10px;
     border-radius: 5%;
     text-align: center;
@@ -23,9 +22,6 @@ div{
     width: 60px;
 }
 
-/*
-    Töfla frá w3shcools
-*/
 table {
     font-size: 1.2em;
     border-collapse: collapse;
@@ -33,14 +29,59 @@ table {
   }
   
   td, th {
-    border: 1px solid #dddddd;
+    border: 1px solid #bf36c4;
     text-align: left;
     padding: 8px;
   }
   
   tr:nth-child(even) {
-    background-color: #dddddd;
+    background-color: #bf36c4;
   }
   h1, h3, h4{
     text-align: center;
   }
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=email], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div {
+  border-radius: 5px;
+  padding: 20px;
+  background-color:white;
+}
+
+form, label{
+  text-align: left;
+}

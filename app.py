@@ -2,9 +2,7 @@ from flask import Flask, render_template, session, url_for, request, redirect, e
 import os
 
 app = Flask(__name__)
-app.secret_key = us.urandom(16)
-print(os.urandom(16))
-#app.config['SECRET_KEY'] = 'leyni'
+app.config['SECRET_KEY'] = 'leyni'
 
 vorur = [   [0,"KitKat","kitkat.jpg",300],
             [0,"M&M","mm.jpg",250],
