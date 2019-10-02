@@ -59,7 +59,7 @@ table {
   }
   
   tr:nth-child(even) {
-    background-color: #bf36c4;
+    background-color: plum;
   }
   h1, h3, h4{
     text-align: center;
@@ -87,7 +87,7 @@ input[type=email], select {
 
 input[type=submit] {
   width: 100%;
-  background-color: #4CAF50;
+  background-color: plum;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
@@ -97,7 +97,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: violet;
 }
 
 div {
