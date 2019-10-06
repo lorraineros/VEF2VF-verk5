@@ -30,6 +30,7 @@
                 <th> {{ samtals }} </th>
             </tr>
         </table>
+        <div class="ok"><a href="/">Aftur í vörulistann</a></div>
     {% endif %}
     <form method='post' action='result' accept-charset="UTF-8">
         <h3>Viðskiptavinur</h3>
@@ -40,7 +41,7 @@
             <input type="email" name="email" required placeholder="e-mail">
         </label>
         <label>Símanúmer:
-            <input type="text" name="simi" required placeholder="1234567">
+            <input type="text" name="simi" required pattern="^(/354 )?\d{3}[ -]?\d{4}$" placeholder="1234567">
         </label>
         <input type="hidden" name="samtals" value="{{ samtals }}">
         <input type="submit" value="Kaupa vörur">

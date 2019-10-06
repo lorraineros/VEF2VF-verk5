@@ -92,4 +92,4 @@ def not_allowed(error):
     return render_template("not_allowed.tpl"),405
 
 if __name__ == '__main__':
-    app.run()
+    app.run(debug=True)

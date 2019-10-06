@@ -46,6 +46,10 @@ div{
     width: 60px;
 }
 
+.ok{
+  text-align: center;
+}
+
 table {
     font-size: 1.2em;
     border-collapse: collapse;
