@@ -70,13 +70,8 @@ def eyda():
 @app.route("/result", methods = ["POST"])
 def result():
     if request.method == "POST":
-        kwargs={
-            "name": request.form["nafn"],
-            "email": request.form["email"],
-            "phone": request.form["sími"],
-            "price": request.form["samtals"],
-        }
-        return render_template("result.tpl",**kwargs)
+        result = request.form
+        return render_template("result.tpl", result = result)
 
 @app.route("/logout",methods = ["GET","POST"])
 def logout():
