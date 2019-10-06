@@ -67,11 +67,16 @@ def eyda():
     session.pop("karfa", None)
     return render_template("eyda.tpl")
 
-@app.route("/result", methods = ["POST","GET"])
+@app.route("/result", methods = ["POST"])
 def result():
     if request.method == "POST":
-        result = request.form
-        return render_template("result.tpl",result = result)
+        kwargs={
+            "name": request.form["nafn"],
+            "email": request.form["email"],
+            "phone": request.form["sími"],
+            "price": request.form["samtals"],
+        }
+        return render_template("result.tpl",**kwargs)
 
 @app.route("/logout",methods = ["GET","POST"])
 def logout():

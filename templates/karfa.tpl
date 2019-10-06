@@ -31,7 +31,7 @@
             </tr>
         </table>
     {% endif %}
-    <form method='post' action='result' accept-charset="UTF-8">
+    <form method="POST" action='result' accept-charset="UTF-8">
         <h3>Viðskiptavinur</h3>
         <label>Nafn:
             <input type="text" name="nafn" required placeholder="Name">
