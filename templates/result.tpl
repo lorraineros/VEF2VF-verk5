@@ -18,7 +18,7 @@
                 <th>Heildarverð: </th><td>{{ price }}</td>
             </tr>
             <tr>
-                <td><a href="/karfa" class="butt">Aftur í körfuna></a></td>
+                <td><a href="/karfa" class="butt">Aftur í körfuna</a></td>
                 <td><a href="/logout" class="butt">Útskráning</a></td>
             </tr>
         </table>
