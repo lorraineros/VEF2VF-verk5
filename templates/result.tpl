@@ -1,5 +1,5 @@
 {% extends "base-karfa.html" %}
-{% block title } Yfirlit pöntunar {% endblock %}
+{% block title %} Yfirlit pöntunar {% endblock %}
 
 {% block content %}
     <h3>{{ self.title() }}</h3>
