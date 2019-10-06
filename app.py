@@ -67,7 +67,7 @@ def eyda():
     session.pop("karfa", None)
     return render_template("eyda.tpl")
 
-@app.route("/result", methods = ["POST"])
+@app.route("/result", methods = ["POST","GET"])
 def result():
     if request.method == "POST":
         result = request.form
