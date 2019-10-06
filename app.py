@@ -67,9 +67,9 @@ def eyda():
     session.pop("karfa", None)
     return render_template("eyda.tpl")
 
-@app.route("/result",methods = ["POST"])
+@app.route("/result", methods = ["POST"])
 def result():
-    if request():
+    if request.method == "POST":
         kwargs={
             "name": request.form["nafn"],
             "email": request.form["email"],
