@@ -5,11 +5,11 @@ app = Flask(__name__)
 app.config['SECRET_KEY'] = 'leyni'
 
 vorur = [   [0,"KitKat","kitkat.jpg",300],
-            [0,"M&M","mm.jpg",250],
-            [0,"Oreo","oreo.jpg",500],
-            [0,"Smarties","smarties.jpg",350],
-            [0,"Skittles","skittles.jpg",300],
-            [0,"Toblerone","toblerone.jpg",500],]
+            [1,"M&M","mm.jpg",250],
+            [2,"Oreo","oreo.jpg",500],
+            [3,"Smarties","smarties.jpg",350],
+            [4,"Skittles","skittles.jpg",300],
+            [5,"Toblerone","toblerone.jpg",500],]
 
 
 @app.route("/")
