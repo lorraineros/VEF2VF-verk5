@@ -24,7 +24,7 @@ def index():
 @app.route("/add/<int:id>")
 def frett(id):
     karfa=[]
-    fjold=0
+    fjoldi=0
     if 'karfa' in session:
         karfa=session['karfa']
         karfa.append(vorur[id])
