@@ -76,7 +76,7 @@ def result():
             "phone": request.form["sími"],
             "price": request.form["samtals"],
         }
-        return render_template("result.tpl",**kwargs)
+        return render_template("result.tpl",kwargs)
 
 @app.route("/logout",methods = ["GET","POST"])
 def logout():
