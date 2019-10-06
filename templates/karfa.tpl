@@ -30,7 +30,6 @@
                 <th> {{ samtals }} </th>
             </tr>
         </table>
-        <div class="ok"><a href="/">Aftur í vörulistann</a></div>
     {% endif %}
     <form method='post' action='result' accept-charset="UTF-8">
         <h3>Viðskiptavinur</h3>
@@ -47,4 +46,5 @@
         <input type="submit" value="Kaupa vörur">
         </form>
     </div>
+    <div class="ok"><a href="/">Aftur í vörulistann</a></div>
 {% endblock %}
