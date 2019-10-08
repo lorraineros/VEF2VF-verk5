@@ -35,7 +35,7 @@ def frett(id):
         session['karfa']=karfa
         fjoldi = len(karfa)
     
-    return render_template("index.tpl",v=vorur, fjoldi=fjoldi)
+    return f'<head><meta http-equiv="Refresh" content="0; url=/#item{id}"></head>'
 
 @app.route("/karfa")
 def karfa():

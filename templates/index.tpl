@@ -8,7 +8,7 @@
     <h1 class="litur">Vörur</h1>
     <section class="rapper">
         {% for i in v %}
-            <div>
+            <div id="item{{ i[0] }}">
                 <h2> {{ i[1] }} </h2>
                 <img src="/static/{{ i[2] }}">
 
